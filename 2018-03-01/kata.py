@@ -9,3 +9,10 @@ def toCsvText(array):
 
 def maps(a):
 	return [x*2 for x in a]
+
+def remove_char(s):
+	return s[1:-1]
+
+
+
+print remove_char('Tests')
